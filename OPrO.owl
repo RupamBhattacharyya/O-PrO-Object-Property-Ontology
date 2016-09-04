@@ -1,0 +1,798 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2016/8/OPrO"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hp/ontologies/2016/8/OPrO">
+    <Prefix name="" IRI="http://www.semanticweb.org/hp/ontologies/2016/8/OPrO"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shape"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDetachablePart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wedge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Box"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitativeConcavity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowVolume"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Handle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LightWeight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HeavyWeight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighConcavity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNonDetachablePart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Furniture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowConcavity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bottle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasImmovablePart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vessel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoffeeMug"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MicrowaveOven"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumConcavityInv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Banana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cuboid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sphere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitativeMeasure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Door"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CerealBox"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Container"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cylinder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utensil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electronic-ElectricalDevice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BellPepper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CookingVessel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Can"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighVolume"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tray"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitativeVolume"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowConcavityInv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitativeWeight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scrubber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighConcavityInv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumConcavity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutlery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumVolume"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVolume"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SharpEdge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportsEquipment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumWeight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Component"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConcavity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HouseholdSupply"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DryBattery"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWeight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Knife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OfficeSupply"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Disk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nil"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMovablePart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#QualitativeConcavity"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#MediumConcavity"/>
+            <NamedIndividual IRI="#MediumConcavityInv"/>
+            <NamedIndividual IRI="#HighConcavity"/>
+            <NamedIndividual IRI="#HighConcavityInv"/>
+            <NamedIndividual IRI="#Nil"/>
+            <NamedIndividual IRI="#LowConcavityInv"/>
+            <NamedIndividual IRI="#LowConcavity"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#QualitativeVolume"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#LowVolume"/>
+            <NamedIndividual IRI="#MediumVolume"/>
+            <NamedIndividual IRI="#HighVolume"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#QualitativeWeight"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#HeavyWeight"/>
+            <NamedIndividual IRI="#MediumWeight"/>
+            <NamedIndividual IRI="#LightWeight"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Shape"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Cuboid"/>
+            <NamedIndividual IRI="#Flat"/>
+            <NamedIndividual IRI="#Pole"/>
+            <NamedIndividual IRI="#Disk"/>
+            <NamedIndividual IRI="#Cylinder"/>
+            <NamedIndividual IRI="#Wedge"/>
+            <NamedIndividual IRI="#Sphere"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Bottle"/>
+        <Class IRI="#Vessel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Box"/>
+        <Class IRI="#Container"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Can"/>
+        <Class IRI="#Vessel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Container"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CookingVessel"/>
+        <Class IRI="#Vessel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cutlery"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dish"/>
+        <Class IRI="#Container"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electronic-ElectricalDevice"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit"/>
+        <Class IRI="#NaturalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Furniture"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HouseholdSupply"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OfficeSupply"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualitativeConcavity"/>
+        <Class IRI="#QualitativeMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualitativeVolume"/>
+        <Class IRI="#QualitativeMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualitativeWeight"/>
+        <Class IRI="#QualitativeMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SportsEquipment"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tool"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utensil"/>
+        <Class IRI="#Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetable"/>
+        <Class IRI="#NaturalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vessel"/>
+        <Class IRI="#Container"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#Apple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportsEquipment"/>
+        <NamedIndividual IRI="#Ball"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fruit"/>
+        <NamedIndividual IRI="#Banana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vegetable"/>
+        <NamedIndividual IRI="#BellPepper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Component"/>
+        <NamedIndividual IRI="#Blade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Box"/>
+        <NamedIndividual IRI="#CerealBox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Can"/>
+        <NamedIndividual IRI="#CoffeeMug"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shape"/>
+        <NamedIndividual IRI="#Cuboid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shape"/>
+        <NamedIndividual IRI="#Cylinder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shape"/>
+        <NamedIndividual IRI="#Disk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Component"/>
+        <NamedIndividual IRI="#Door"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electronic-ElectricalDevice"/>
+        <NamedIndividual IRI="#DryBattery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shape"/>
+        <NamedIndividual IRI="#Flat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Component"/>
+        <NamedIndividual IRI="#Handle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeWeight"/>
+        <NamedIndividual IRI="#HeavyWeight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeConcavity"/>
+        <NamedIndividual IRI="#HighConcavity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeConcavity"/>
+        <NamedIndividual IRI="#HighConcavityInv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeVolume"/>
+        <NamedIndividual IRI="#HighVolume"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cutlery"/>
+        <NamedIndividual IRI="#Knife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Utensil"/>
+        <NamedIndividual IRI="#Knife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeWeight"/>
+        <NamedIndividual IRI="#LightWeight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeConcavity"/>
+        <NamedIndividual IRI="#LowConcavity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeConcavity"/>
+        <NamedIndividual IRI="#LowConcavityInv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeVolume"/>
+        <NamedIndividual IRI="#LowVolume"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeConcavity"/>
+        <NamedIndividual IRI="#MediumConcavity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeConcavity"/>
+        <NamedIndividual IRI="#MediumConcavityInv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeVolume"/>
+        <NamedIndividual IRI="#MediumVolume"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeWeight"/>
+        <NamedIndividual IRI="#MediumWeight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electronic-ElectricalDevice"/>
+        <NamedIndividual IRI="#MicrowaveOven"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HouseholdSupply"/>
+        <NamedIndividual IRI="#Mop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitativeConcavity"/>
+        <NamedIndividual IRI="#Nil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Component"/>
+        <NamedIndividual IRI="#Peel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shape"/>
+        <NamedIndividual IRI="#Pole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Component"/>
+        <NamedIndividual IRI="#Scrubber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Component"/>
+        <NamedIndividual IRI="#SharpEdge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shape"/>
+        <NamedIndividual IRI="#Sphere"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Component"/>
+        <NamedIndividual IRI="#Tray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shape"/>
+        <NamedIndividual IRI="#Wedge"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+        <NamedIndividual IRI="#Apple"/>
+        <NamedIndividual IRI="#Sphere"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVolume"/>
+        <NamedIndividual IRI="#Apple"/>
+        <NamedIndividual IRI="#LowVolume"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeight"/>
+        <NamedIndividual IRI="#Apple"/>
+        <NamedIndividual IRI="#LightWeight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+        <NamedIndividual IRI="#Ball"/>
+        <NamedIndividual IRI="#Sphere"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVolume"/>
+        <NamedIndividual IRI="#Ball"/>
+        <NamedIndividual IRI="#MediumVolume"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeight"/>
+        <NamedIndividual IRI="#Ball"/>
+        <NamedIndividual IRI="#LightWeight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDetachablePart"/>
+        <NamedIndividual IRI="#Banana"/>
+        <NamedIndividual IRI="#Peel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVolume"/>
+        <NamedIndividual IRI="#Banana"/>
+        <NamedIndividual IRI="#LowVolume"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeight"/>
+        <NamedIndividual IRI="#Banana"/>
+        <NamedIndividual IRI="#LightWeight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+        <NamedIndividual IRI="#BellPepper"/>
+        <NamedIndividual IRI="#Sphere"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVolume"/>
+        <NamedIndividual IRI="#BellPepper"/>
+        <NamedIndividual IRI="#LowVolume"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeight"/>
+        <NamedIndividual IRI="#BellPepper"/>
+        <NamedIndividual IRI="#LightWeight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPart"/>
+        <NamedIndividual IRI="#Blade"/>
+        <NamedIndividual IRI="#SharpEdge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+        <NamedIndividual IRI="#CerealBox"/>
+        <NamedIndividual IRI="#Cuboid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVolume"/>
+        <NamedIndividual IRI="#CerealBox"/>
+        <NamedIndividual IRI="#MediumVolume"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeight"/>
+        <NamedIndividual IRI="#CerealBox"/>
+        <NamedIndividual IRI="#LightWeight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcavity"/>
+        <NamedIndividual IRI="#CoffeeMug"/>
+        <NamedIndividual IRI="#HighConcavity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+        <NamedIndividual IRI="#CoffeeMug"/>
+        <NamedIndividual IRI="#Cylinder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNonDetachablePart"/>
+        <NamedIndividual IRI="#CoffeeMug"/>
+        <NamedIndividual IRI="#Handle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVolume"/>
+        <NamedIndividual IRI="#CoffeeMug"/>
+        <NamedIndividual IRI="#LowVolume"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeight"/>
+        <NamedIndividual IRI="#CoffeeMug"/>
+        <NamedIndividual IRI="#LightWeight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+        <NamedIndividual IRI="#Door"/>
+        <NamedIndividual IRI="#Flat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+        <NamedIndividual IRI="#DryBattery"/>
+        <NamedIndividual IRI="#Cuboid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVolume"/>
+        <NamedIndividual IRI="#DryBattery"/>
+        <NamedIndividual IRI="#MediumVolume"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeight"/>
+        <NamedIndividual IRI="#DryBattery"/>
+        <NamedIndividual IRI="#MediumWeight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+        <NamedIndividual IRI="#Knife"/>
+        <NamedIndividual IRI="#Flat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNonDetachablePart"/>
+        <NamedIndividual IRI="#Knife"/>
+        <NamedIndividual IRI="#Blade"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNonDetachablePart"/>
+        <NamedIndividual IRI="#Knife"/>
+        <NamedIndividual IRI="#Handle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVolume"/>
+        <NamedIndividual IRI="#Knife"/>
+        <NamedIndividual IRI="#LowVolume"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeight"/>
+        <NamedIndividual IRI="#Knife"/>
+        <NamedIndividual IRI="#LightWeight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcavity"/>
+        <NamedIndividual IRI="#MicrowaveOven"/>
+        <NamedIndividual IRI="#HighConcavity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDetachablePart"/>
+        <NamedIndividual IRI="#MicrowaveOven"/>
+        <NamedIndividual IRI="#Tray"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+        <NamedIndividual IRI="#MicrowaveOven"/>
+        <NamedIndividual IRI="#Cuboid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNonDetachablePart"/>
+        <NamedIndividual IRI="#MicrowaveOven"/>
+        <NamedIndividual IRI="#Door"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVolume"/>
+        <NamedIndividual IRI="#MicrowaveOven"/>
+        <NamedIndividual IRI="#MediumVolume"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeight"/>
+        <NamedIndividual IRI="#MicrowaveOven"/>
+        <NamedIndividual IRI="#MediumWeight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+        <NamedIndividual IRI="#Mop"/>
+        <NamedIndividual IRI="#Pole"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNonDetachablePart"/>
+        <NamedIndividual IRI="#Mop"/>
+        <NamedIndividual IRI="#Handle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasNonDetachablePart"/>
+        <NamedIndividual IRI="#Mop"/>
+        <NamedIndividual IRI="#Scrubber"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVolume"/>
+        <NamedIndividual IRI="#Mop"/>
+        <NamedIndividual IRI="#MediumVolume"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeight"/>
+        <NamedIndividual IRI="#Mop"/>
+        <NamedIndividual IRI="#MediumWeight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeight"/>
+        <NamedIndividual IRI="#Peel"/>
+        <NamedIndividual IRI="#LightWeight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConcavity"/>
+        <NamedIndividual IRI="#Tray"/>
+        <NamedIndividual IRI="#LowConcavity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+        <NamedIndividual IRI="#Tray"/>
+        <NamedIndividual IRI="#Flat"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDetachablePart"/>
+        <ObjectProperty IRI="#hasMovablePart"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasImmovablePart"/>
+        <ObjectProperty IRI="#hasPart"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMovablePart"/>
+        <ObjectProperty IRI="#hasPart"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNonDetachablePart"/>
+        <ObjectProperty IRI="#hasMovablePart"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConcavity"/>
+        <ObjectUnionOf>
+            <Class IRI="#Artifact"/>
+            <Class IRI="#Component"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+        <ObjectUnionOf>
+            <Class IRI="#Artifact"/>
+            <Class IRI="#Component"/>
+            <Class IRI="#NaturalObject"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPart"/>
+        <ObjectUnionOf>
+            <Class IRI="#Artifact"/>
+            <Class IRI="#Component"/>
+            <Class IRI="#NaturalObject"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVolume"/>
+        <ObjectUnionOf>
+            <Class IRI="#Artifact"/>
+            <Class IRI="#NaturalObject"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWeight"/>
+        <ObjectUnionOf>
+            <Class IRI="#Artifact"/>
+            <Class IRI="#NaturalObject"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConcavity"/>
+        <Class IRI="#QualitativeConcavity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGeometricShape"/>
+        <Class IRI="#Shape"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPart"/>
+        <Class IRI="#Component"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVolume"/>
+        <Class IRI="#QualitativeVolume"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWeight"/>
+        <Class IRI="#QualitativeWeight"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
